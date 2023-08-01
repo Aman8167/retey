@@ -1,0 +1,98 @@
+.App{
+  display:flex;
+  font-family:'IBM Plex Sana Thai Looped',sans-serif ;
+  
+}
+.body_container{
+  flex:1;
+  background-color: rgb(144, 248, 248);
+}
+.body_container{
+  height:100vh;
+ 
+  
+}
+.search-container{
+  margin-top: 45px;
+  margin-left: 54px;
+  width:100%;
+}
+.search-container input{
+  padding:4px;
+  width:50%;
+  height:2rem;
+}
+.search-container input:hover{
+  cursor: pointer;
+  
+}
+.Booking_group{
+
+  margin-left: 54px;
+  width:76%;
+  height:30%;
+  background-color: white;
+  display: flex;
+ 
+}
+.Booking1_group{
+  width:40%;
+  height:8rem;
+  background-color: white;
+  border: 1px solid silver;
+  margin-top: 34px;
+  margin-left:2px;
+}
+.Booking2_group{
+  width:50%;
+  height:5rem;
+  background-color: white;
+  border: 0px solid silver;
+  margin-top: 24px;
+  
+ 
+}
+.select{
+  margin-top: 34px;
+  margin-left: 20%;
+ 
+}
+
+#select{
+  flex-direction: column;
+ width:6rem;
+ color:black;
+ padding:6px;
+ background-color: rgb(66, 211, 66);
+ border-radius: 2px;
+ box-shadow: inset;
+ border: 2px solid white;
+}
+.Booking1_group p1{
+  font-size: smaller;
+
+  margin-left: 2px;
+}
+#select:hover{
+  cursor:pointer;
+  border:3px solid white;
+  
+}
+.Booking3_group{
+  margin-top:43px;
+  margin-left: 34%;
+  
+}
+#button{
+  color:black;
+  background-color: yellow;
+  padding:6px;
+  font-weight:bold;
+  border:0px solid white;
+  border-radius: 2px;
+  box-shadow: inherit;
+}
+#button:hover{
+  cursor:pointer;
+  border: 3px solid white;
+}
